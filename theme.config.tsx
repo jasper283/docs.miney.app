@@ -12,16 +12,17 @@ const config: DocsThemeConfig = {
   footer: {
     text: '2024 © Happx Tech',
   },
-  editLink: {
-    component: null
-  },
   head: (
     <>
       <link rel="icon" href="/favicon.ico" />
-      {/* 如果你有其他格式的 favicon，可以添加更多的 link 标签 */}
       <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     </>
   ),
+  editLink: { component: () => null },
+  // editLink: {
+  //   component: null
+  // },
+
 
 }
 
